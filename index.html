@@ -36,10 +36,25 @@
 
 	</style>
 </head>
+	
 <body>
 <div class='sidebar'>
       <div class='heading'>
-      </div>
+	</div>
+<div id="map" style="width: 500px; height: 500px"></div>
+
+	<script>
+
+    mapboxgl.accessToken = 'pk.eyJ1IjoibWFkaXpoZW4iLCJhIjoiY2lzbTViZ2ozMDAyejJ5bzFxaXB0MXN2eCJ9.YVS0Rlj7IjNHireL_ysr6w';
+    var map = new mapboxgl.Map({
+    container: 'map',
+    style: 'mapbox://styles/madizhen/cj72hhu8m1ny52qlcqjyrn4zx',
+    center: [-98.579480, 39.828346],
+    zoom: 3,
+    scrollZoom: true
+  });
+
+    </script>
 	<h1>BLACKLANDSCAPESMATTER</h1>
 	<p>The Black Lives Matter Movement stands for civil rights and calls upon historically silenced voices. Place gives people a sense of identity and community. Saying Black Landscapes Matter isn't arguing something like "All Lives Matter," rather I'm trying to supplement Black Lives Matter by showing places of hope, history and refuge.  This site is dedicated to mapping out the history, theory, reality and people of Black Lives Matter. </p>
 	<p>
