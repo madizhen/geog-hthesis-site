@@ -5,6 +5,36 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="style.css">
 	<title>blm</title>
+	<meta name='viewport' content='initial-scale=1maximum-scale=1,user-scalable=no' />
+
+	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
+      <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
+
+	<style>
+
+		.sidebar {
+			position:absolute;
+	          width:35%;
+	          height:100%;
+	          top:0;left:0;
+	          overflow:hidden;
+	          border-right:1px solid rgba(0,0,0,0.25);
+	          overflow-y: scroll;
+	        }
+
+		.pad2 {
+	          padding:20px;
+	        }
+
+	    #map {
+	          position:absolute;
+	          left: 65%;
+	          top:0;bottom:0;
+	          width: 500px;
+		      height: 500px;
+	        }
+
+	</style>
 </head>
 <body>
 <div class='sidebar'>
