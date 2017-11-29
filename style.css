@@ -1,0 +1,40 @@
+body {
+    background-color: black;
+}
+
+h1 {
+    color: white;
+    font-family: courier;
+    text-align: center;
+    margin: 50px;
+}
+
+p {
+    font-family: courier;
+    color: white;
+    font-size: 20px;
+    text-align: justify;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.maps {
+    text-align: center;
+}
+
+#aamap {
+    font-family: courier;
+    color: white;
+    text-align: justify;
+    margin-left: 350px;
+    margin-right: 350px;
+}
+
+.footer {
+    font-family: arial;
+    color: grey;
+    font-size: 10px;
+    text-align: center;
+    margin-left: 10px;
+    margin-right: 10px;
+}

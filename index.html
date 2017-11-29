@@ -5,65 +5,27 @@
 	<meta charset="utf-8">
 	<link rel="stylesheet" href="style.css">
 	<title>blm</title>
-	<meta name='viewport' content='initial-scale=1maximum-scale=1,user-scalable=no' />
 
-	<script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.js'></script>
-      <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.38.0/mapbox-gl.css' rel='stylesheet' />
-
-	<style>
-
-		.sidebar {
-			position:absolute;
-	          width:35%;
-	          height:100%;
-	          top:0;left:0;
-	          overflow:hidden;
-	          border-right:1px solid rgba(0,0,0,0.25);
-	          overflow-y: scroll;
-	        }
-
-		.pad2 {
-	          padding:20px;
-	        }
-
-	    #map {
-	          position:absolute;
-	          left: 65%;
-	          top:0;bottom:0;
-	          width: 500px;
-		      height: 500px;
-	        }
-
-	</style>
-</head>
+	<h1>BLACK LANDSCAPES MATTER</h1>
+	<body>
+	<p>The BlackLivesMatter Movement is the call for justice of the histoically silenced voices of the black community. The movement is more than protests, it is a space of inclusion, a community of resilence and a raging hope for civil liberties. The BlackLandscapesMatter is a project that focuses on the inmportance of space, identity and visibility the black community has in America. This collection maps aims to be telling of the disparities and injustices of the black community in order to educate those about the history and reality of black community.
+	</p>
 	
-<body>
-<div class='sidebar'>
-      <div class='heading'>
+	<br></br>
+
+	<div class="maps">
+	<img src="anguishassembly.png" width="750" height="500">
+	<div id="aamap">
+		This map visualises the geographies between the murders of black men and women by officers. The white ripples are representitve of protests spreading their message out for civil liberty and jutsice.
 	</div>
-<div id="map" style="width: 500px; height: 500px"></div>
+	</div>
 
-	<script>
+	<br></br>
 
-    mapboxgl.accessToken = 'pk.eyJ1IjoibWFkaXpoZW4iLCJhIjoiY2lzbTViZ2ozMDAyejJ5bzFxaXB0MXN2eCJ9.YVS0Rlj7IjNHireL_ysr6w';
-    var map = new mapboxgl.Map({
-    container: 'map',
-    style: 'mapbox://styles/madizhen/cj72hhu8m1ny52qlcqjyrn4zx',
-    center: [-98.579480, 39.828346],
-    zoom: 3,
-    scrollZoom: true
-  });
-
-    </script>
-	<h1>BLACKLANDSCAPESMATTER</h1>
-	<p>The Black Lives Matter Movement stands for civil rights and calls upon historically silenced voices. Place gives people a sense of identity and community. Saying Black Landscapes Matter isn't arguing something like "All Lives Matter," rather I'm trying to supplement Black Lives Matter by showing places of hope, history and refuge.  This site is dedicated to mapping out the history, theory, reality and people of Black Lives Matter. </p>
-	<p>
+	<div class="footer">
+	Maps and text are by Madison Draper, a student in Geography @ UC Berkeley. This project is under the direction of Dr. Alicia Cowart.
+	<br></br>
 	This is an open source project that is usable for public use. To contribute to any of the web maps, you can find the repositories here.
-	</p>
-	<p>This project and maps are by Madison Draper, a student in Geography @ UC Berkeley. This project is under the direction of Dr. Alicia Cowart.
-	</p>
-	<p>
-	Table of Contents
-	</p>
-</body>
+	</div>
+	</body>
 </html>
